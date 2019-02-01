@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:layout_width="440dp"
+        android:layout_height="270dp"
+        android:src="@mipmap/amazon"
+        android:id="@+id/image"/>
+
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_below="@+id/image"
+        android:background="#ffcc00"
+        >
+
+
+    <TextView
+        android:layout_width="45mm"
+        android:layout_height="5mm"
+        android:gravity="center"
+        android:hint="Username"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       android:id="@+id/textView"
+      />
+
+        <Button
+
+            android:layout_width="20mm"
+            android:layout_height="7mm"
+            android:layout_below="@+id/textView"
+
+            android:background="@drawable/bordes_redondeados"
+            android:text="LOG IN"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+    </RelativeLayout>
+</RelativeLayout>

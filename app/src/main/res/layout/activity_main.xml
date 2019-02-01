@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/login_root"
+
+    >
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="301dp"
+        android:src="@mipmap/amazon" />
+
+<LinearLayout android:layout_height="match_parent"
+android:layout_width="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:gravity="center"
+android:background="#ffcc00"
+    >
+
+    <EditText
+        android:layout_width="45mm"
+        android:layout_height="5mm"
+        android:gravity="center"
+        android:hint="Username"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bordes_redondeados2"
+        />
+
+
+    <EditText
+        android:layout_width="45mm"
+        android:layout_height="5mm"
+        android:gravity="center"
+        android:hint="Password"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bordes_redondeados2"
+        />
+
+
+    <Button
+        android:layout_width="20mm"
+        android:layout_height="7mm"
+        android:layout_marginTop="8mm"
+        android:text="LOG IN"
+
+        android:textColor="#ffffff"
+        android:background="@drawable/bordes_redondeados"
+
+        />
+    <TextView
+        android:layout_width="25mm"
+        android:layout_height="9mm"
+        android:layout_marginTop="10mm"
+        android:text="Forgot you password?"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="25mm"
+        android:layout_height="9mm"
+
+        android:text="Register"
+        android:gravity="center"/>
+</LinearLayout>
+</LinearLayout>
